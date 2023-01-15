@@ -15,13 +15,12 @@
 
 header{
     background-color:#FF900E1A;
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
     
 }
 .navber ul{
@@ -40,6 +39,8 @@ header{
 }
 .banner-text{
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
 }
 .banner h2{
     font-size: 35px;
@@ -53,10 +54,9 @@ header{
 .btn-primary{
     font-size: 18px;
     color: white;
-    height: 40px;
-    width: 150px;
     border-radius: 5px;
-    padding: 10px 15px;
+    border: none;
+    padding: 12px 20px;
     background: #FF900E
     ;
     margin-top: 20px;
@@ -151,12 +151,20 @@ main{
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.achievement div{
+ .achieve{
     border: 2px solid #FF900E
     ;
+    border-radius: 5px;
     padding: 15px;
     text-align: center;
+
 }
+.achieve:hover{
+    transform: rotate(360deg);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
 
 /* Featured style  */
 
@@ -261,8 +269,6 @@ main{
     color: white;
     padding: 10px 20px;
     background: #FF900E;
-    top: 20px;
-    left: 70px;
     text-align: center;
 }
 .mr-top {
