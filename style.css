@@ -288,6 +288,7 @@ main{
 }
 .events p{
     padding: 20px;
+    width: 100%;
 }
 .achievement {
     display: flex;
@@ -315,13 +316,18 @@ main{
 .details{
     text-align: center;
 }
+.details p{
+    width: 100%;
+}
 .sponspor-title {
     text-align: center;
     width: 60%;
     margin: 0 auto;
     margin-top: 50px;
 }
-
+.sponspor-title p{
+    width: 100%;
+}
 .sponspors-company {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -336,13 +342,11 @@ main{
     border-radius: 8px;
     text-align: center;
     margin: 50px;
-    padding: 30px 30px;
+
 }
 
 }
-.hide{
-    display: none;
-}
+
 
  /* Medium devices (tablets, 577px and 768px) */
 
